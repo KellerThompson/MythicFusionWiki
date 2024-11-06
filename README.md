@@ -34,9 +34,10 @@ Also the new [Trinket System](https://github.com/KellerThompson/MythicFusionWiki
 | mythicfusion| mfusion, mf | Base command for the plugin| ```mythicfusion.basecommand```|
 
 ## ◻ Subcommands
-| SubCommand   | parent command |Description | Permission |
-|--------------|--------------|--------------|--------------|
-| reload | mythicfusion |Reload the plugin| ```mythicfusion.reload```|
+| SubCommand   |Description | Permission |
+|--------------|--------------|--------------|
+| reload | Reload the plugin| ```mythicfusion.reload```|
+| skill | Execute a skill with the player as the caster. The player needs to have permission for the subcommand and for the specific skill. | For subcomand: ```mythicfusion.skill```, for each skill: ```mythicfusion.skill.<skillName>```|
 
 # ◼ License
 * All rights reserved.
