@@ -1,0 +1,9 @@
+##MythicFusion Wiki https://github.com/KellerThompson/MythicFusionWiki/wiki
+
+Trinkets:
+  #Changing the enable or timer values requires restarting the server
+  Enable: true
+  #ticks between every inventory check. 200 ticks = 10 sec
+  Timer: 200
+  #On searching a trinket on player's invetory check also for shulker's invetory
+  checkShulker: false

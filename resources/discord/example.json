@@ -1,0 +1,12 @@
+{
+  "content": ":fire: MythicFusion :fire:\n\nMythicFusion integrates new conditions and mechanics from other plugins to MythicMobs.",
+  "embeds": [
+    {
+      "title": "Discord WeebHook Mechanic",
+      "description": "MythicFusion adds a new mechanic that allows sending messages to discord using webhooks.",
+      "color": 5430064
+    }
+  ],
+  "username": "MythicFusion",
+  "attachments": []
+}

@@ -1,0 +1,26 @@
+#MythicFusion's examples
+
+#These examples must be overwritten at each restart for future updates.
+#If you want to create new items/skills I recommend you to do it in a new file
+#in your mythicmobs configuration.
+
+#https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets
+
+#This trinketSkill requires AuraSkill plugin to work.
+shinyDiamond:
+  Cooldown: 0
+  Conditions:
+    - AuraMana{value=5} true
+  Skills:
+    - ConsumeMana{mana=5} @self
+    - potion{type=REGENERATION; duration=240; level=0} @self
+
+
+shinyEmerald:
+  Cooldown: 0
+  Conditions:
+    - skillOnCooldown{skill=shinyEmerald} false
+  Skills:
+    - delay 0
+    - setSkillCooldown{skill=shinyEmerald; seconds=30} @self
+    - potion{type=HASTE; duration=240; level=0} @self

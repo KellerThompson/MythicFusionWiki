@@ -1,0 +1,32 @@
+#MythicFusion's examples
+
+#These examples must be overwritten at each restart for future updates.
+#If you want to create new items/skills I recommend you to do it in a new file
+#in your mythicmobs configuration.
+
+#https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets
+
+shinyDiamond:
+  Id: DIAMOND
+  Display: '<gradient:#00ff00:#00ffff>Shiny Diamond</gradient>'
+  Lore:
+    - ''
+    - '&7A diamond that consumes &b5 mana points'
+    - '&7 every &e10 sec&7 and grants &eRegeneration I.'
+  Enchantments:
+    - DURABILITY:1
+  Hide:
+    - ATTRIBUTES
+    - ENCHANTS
+
+shinyEmerald:
+  Id: EMERALD
+  Display: '<gradient:#00ff00:#00ffff>Shiny Emerald</gradient>'
+  Lore:
+    - ''
+    - '&7An emerald that awards &eHaste I &7every 30 sec.'
+  Enchantments:
+    - DURABILITY:1
+  Hide:
+    - ATTRIBUTES
+    - ENCHANTS
