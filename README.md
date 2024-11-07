@@ -1,9 +1,16 @@
 # ◼ Description
 MythicFusion is a spigot plugin designed to extend the functionality of MythicMobs by introducing custom `conditions` and `mechanics` that allows integration with other plugins.
 
-MythicFusion enables the `execution of skills` with the player as the caster on `specific events`, this works for plugin and vanilla events. 
+MythicFusion enables the `execution of skills` with the player as the caster on `specific events` or by command, this works for plugin and vanilla events. .
 
-Also the new [Trinket System](https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets)  allows players to trigger specific skills by having designated MythicMobs items in their inventory. Each item is linked to a predefined skill that activates automatically when the item is present. This mechanic can be configured to work with various plugins like  Aurelium Skills, enabling the integration of custom effects, buffs, or conditions, offering a flexible and dynamic gameplay experience.
+### ◻ New MythicMobs mechanics and conditions
+At the moment, MythicFusion integrates `16 new conditions` and `15 mechanics` from 6 different plugins such as **AuraSkills**, **AlonsoTags**, **Essentialsx**, **Gsit**, **LibDisguise** and **VotingPlugin**. Over time I plan to continue integrating more.
+
+### ◻ Trinkets
+Also the new [`Trinket System`](https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets) that allows players to trigger specific skills by having designated MythicMobs items in their inventory. Each trinket is linked to a predefined skill that activates automatically when the item is present.
+
+### ◻ Commands
+Utility commands, such as the `skill command` that allows players to use specific skills with the necessary permission.
 
 * This is my first plugin so if you find an error/bug please create an issue [here](https://github.com/KellerThompson/MythicFusionWiki/issues). 
 * All comments and suggestions are wellcome
