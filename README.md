@@ -36,15 +36,15 @@ Utility commands, such as the `skill command` that allows players to use specifi
 6. If you find an error/bug report the issue [here](https://github.com/KellerThompson/MythicFusionWiki/issues)
 
 # ◼ Commands
-| Command| Aliases| Description|Permission|
-|--------------|--------------|--------------|-------------|
-| mythicfusion| mfusion, mf | Base command for the plugin| ```mythicfusion.basecommand```|
+| Command| Aliases| Description|Permission|Example|
+|--------------|--------------|--------------|-------------|-------------|
+| mythicfusion| mfusion, mf | Base command for the plugin| ```mythicfusion.basecommand```| `/mf [subCommand] [args]`|
 
 ## ◻ Subcommands
-| SubCommand   |Description | Permission |
-|--------------|--------------|--------------|
-| reload | Reload the plugin| ```mythicfusion.reload```|
-| skill | Execute a skill with the player as the caster. The player needs to have permission for the subcommand and for the specific skill. | For subcomand: ```mythicfusion.skill```, for each skill: ```mythicfusion.skill.<skillName>```|
+| SubCommand   |Description | Permission |Example|
+|--------------|--------------|--------------|-------------|
+| reload | Reload the plugin| ```mythicfusion.reload```| `/mf reload`|
+| skill | Execute a skill with the player as the caster. The player needs to have permission for the subcommand and for the specific skill. | For subcomand: ```mythicfusion.skill```, for each skill: ```mythicfusion.skill.<skillName>```| `/mf skill [skillName]`|
 
 # ◼ License
 * All rights reserved.
