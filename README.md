@@ -10,7 +10,7 @@ At the moment, MythicFusion integrates `16 new conditions` and `15 mechanics` fr
 Also the new [`Trinket System`](https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets) that allows players to trigger specific skills by having designated MythicMobs items in their inventory. Each trinket is linked to a predefined skill that activates automatically when the item is present.
 
 ### ◻ Commands
-Utility commands, such as the `skill command` that allows players to use specific skills with the necessary permission.
+Utility commands, such as the `skill command` and `sudoSkill command` that allows players to use specific skills with the necessary permission.
 
 * This is my first plugin so if you find an error/bug please create an issue [here](https://github.com/KellerThompson/MythicFusionWiki/issues). 
 * All comments and suggestions are wellcome
@@ -45,6 +45,7 @@ Utility commands, such as the `skill command` that allows players to use specifi
 |--------------|--------------|--------------|-------------|
 | reload | Reload the plugin| ```mythicfusion.reload```| `/mf reload`|
 | skill | Execute a skill with the player as the caster. The player needs to have permission for the subcommand and for the specific skill. | For subcomand: ```mythicfusion.skill```, for each skill: ```mythicfusion.skill.<skillName>```| `/mf skill [skillName]`|
+| sudoSkill | Allows forcing a player to cast a skill, can be use on console or by a player with the permission. Command alias `ss` | `mythicfusion.sudoskill` | `/mf sudoSkill [casterName] [skillName]`|
 
 # ◼ License
 * All rights reserved.
