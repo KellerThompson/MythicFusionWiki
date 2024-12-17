@@ -1,21 +1,21 @@
-# ◼ Description
+# 🔹 Description
 MythicFusion is a spigot plugin designed to extend the functionality of MythicMobs by introducing custom `conditions` and `mechanics` that allows integration with other plugins.
 
 MythicFusion enables the `execution of skills` with the player as the caster on `specific events` or by command, this works for plugin and vanilla events. .
 
-### ◻ New MythicMobs mechanics and conditions
+### ⏵ New MythicMobs mechanics and conditions
 At the moment, MythicFusion integrates `16 new conditions` and `15 mechanics` from 6 different plugins such as **AuraSkills**, **AlonsoTags**, **Essentialsx**, **Gsit**, **LibDisguise** and **VotingPlugin**. Over time I plan to continue integrating more.
 
-### ◻ Trinkets
+### ⏵ Trinkets
 Also the new [`Trinket System`](https://github.com/KellerThompson/MythicFusionWiki/wiki/Trinkets) that allows players to trigger specific skills by having designated MythicMobs items in their inventory. Each trinket is linked to a predefined skill that activates automatically when the item is present.
 
-### ◻ Commands
+### ⏵ Commands
 Utility commands, such as the `skill command` and `sudoSkill command` that allows players to use specific skills with the necessary permission.
 
 * This is my first plugin so if you find an error/bug please create an issue [here](https://github.com/KellerThompson/MythicFusionWiki/issues). 
 * All comments and suggestions are wellcome
 
-# ◼ Installation 
+# 🔹 Installation 
 1. Use `spigot/paper 1.20 - 1.21` and `java 21`
 2. Download the last version of MythicFusion [here](https://modrinth.com/plugin/mythicfusion).
 3. Make sure you have the following plugins installed in your server:
@@ -35,17 +35,17 @@ Utility commands, such as the `skill command` and `sudoSkill command` that allow
 5. Enjoy the new mechanics and conditions.
 6. If you find an error/bug report the issue [here](https://github.com/KellerThompson/MythicFusionWiki/issues)
 
-# ◼ Commands
+# 🔹 Commands
 | Command| Aliases| Description|Permission|Example|
 |--------------|--------------|--------------|-------------|-------------|
 | mythicfusion| mfusion, mf | Base command for the plugin| ```mythicfusion.basecommand```| `/mf [subCommand] [args]`|
 
-## ◻ Subcommands
+### ⏵ Subcommands
 | SubCommand   |Description | Permission |Example|
 |--------------|--------------|--------------|-------------|
 | reload | Reload the plugin| ```mythicfusion.reload```| `/mf reload`|
 | skill | Execute a skill with the player as the caster. The player needs to have permission for the subcommand and for the specific skill. | For subcomand: ```mythicfusion.skill```, for each skill: ```mythicfusion.skill.<skillName>```| `/mf skill [skillName]`|
 | sudoSkill | Allows forcing a player to cast a skill, can be use on console or by a player with the permission. Command alias `ss` | `mythicfusion.sudoskill` | `/mf sudoSkill [casterName] [skillName]`|
 
-# ◼ License
+# 🔹 License
 * All rights reserved.
